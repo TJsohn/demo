@@ -11,20 +11,20 @@
 5. Change the values of a and b and observe how the results change.
 6. Try the same operations with one positive and one negative number.
 */
-let a = 5; // Creating a variable a and assigning it an integer value 5
-let b = 3; // Creating a varialbe b and assigning it an integer value 3
+let a = -2; // Creating a variable a and assigning it an integer value 5
+let b = 4; // Creating a varialbe b and assigning it an integer value 3
 
-let sum = a + b; //
-console.log("Sum of a and b is:", sum);
+let sum = a + b; // Adding the values using a and b and storing the result in a variable 'sum'
+console.log("Sum of a and b is:", sum); // printing the results
 
-let subtract = a - b;
-console.log("Subtract of a and b is:", subtract);
+let subtract = a - b; // Substracting b from a and storing the result in a variable 'subtract'
+console.log("Subtract of a and b is:", subtract); // printing the results
 
-let multiply = a * b;
-console.log("Multiply of a and b is:", multiply);
+let multiply = a * b; // Storing the result in a variable "multiply" by multiplying a and b
+console.log("Multiply of a and b is:", multiply); // printing the result
 
-let divide = a / b;
-console.log("Divide a by b is:", divide);
+let divide = a / b; // Storing the result in a variable "divide" by dividing a by b
+console.log("Divide of a by b is:", divide); // printing the result
 
-let remainder = a % b;
-console.log("The remainder when a is divided by b is:", remainder);
+let remainder = a % b; // storing the result in a variable "remainder" of the remainder when a is divided by b
+console.log("The remainder when a is divided by b is:", remainder); //printing the result
